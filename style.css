@@ -17,7 +17,7 @@
 /* MAIN FRAMEWORK */
 body::before{
     content: "";
-    background: url("/images/bg-header-desktop.png") no-repeat center center/cover;
+    background: url("images/bg-header-desktop.png") no-repeat center center/cover;
     position: absolute;
     width: 100%;
     height: 50%;
@@ -275,7 +275,7 @@ footer{
     }
 
     body::before{
-        background: url("/images/bg-header-mobile.png") no-repeat center center/cover;
+        background: url("images/bg-header-mobile.png") no-repeat center center/cover;
     }
 
     .main{
